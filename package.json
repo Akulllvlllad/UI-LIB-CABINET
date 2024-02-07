@@ -1,0 +1,22 @@
+{
+  "name": "UI",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@vue/compiler-sfc": "^3.4.15",
+    "rollup": "^4.9.6",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
